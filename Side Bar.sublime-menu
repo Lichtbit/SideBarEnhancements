@@ -57,112 +57,6 @@
 		"args": {"paths": []}
 	},
 	{
-		"caption": "Open In Browser",
-		"id": "side-bar-open-in-browser",
-		"children": [
-			{
-				"caption": "Default",
-				"command": "side_bar_open_in_browser",
-				"args": {"paths": []}
-			},
-			{"caption": "-"
-			},
-			{
-				"caption": "Firefox",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "firefox"
-				}
-			},
-			{
-				"caption": "Firefox Developer Edition",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "firefox-developer-edition"
-				}
-			},
-			{"caption": "-"
-			},
-			{
-				"caption": "Chromium",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "chromium"
-				}
-			},
-			{
-				"caption": "Chrome",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "chrome"
-				}
-			},
-			{
-				"caption": "Canary",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "canary"
-				}
-			},
-			{"caption": "-"
-			},
-			{
-				"caption": "Opera",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "opera"
-				}
-			},
-			{
-				"caption": "Safari",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "safari"
-				}
-			},
-			{"caption": "-"
-			},
-			{
-				"caption": "Internet Explorer",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "ie"
-				}
-			},
-			{
-				"caption": "Edge",
-				"command": "side_bar_open_in_browser",
-				"args": {
-					"paths": [],
-					"type": "testing",
-					"browser": "edge"
-				}
-			},
-			{"caption": "-"
-			},
-			{
-				"caption": "Open In All Browsers",
-				"command": "side_bar_open_browsers"
-			}
-		]
-	},
-	{
 		"caption": "Open In New Window",
 		"id": "side-bar-open-in-new-window",
 		"command": "side_bar_open_in_new_window",
@@ -179,6 +73,11 @@
 		"id": "side-bar-files-open-with",
 
 		"children": [
+      {
+        "caption": "Default",
+        "command": "side_bar_open_in_browser",
+        "args": {"paths": []}
+      },
 			{"caption": "-", "id": "side-bar-files-open-with-edit-application-separator"},
 			{
 				"caption": "Edit Applications…",
@@ -583,12 +482,6 @@
 				"args": {"paths": []}
 			}
 		]
-	},
-	{"caption": "-", "id": "side-bar-donate-separator"},
-	{
-		"caption": "Give 20",
-		"command": "side_bar_donate",
-		"args": {"paths": []}
 	},
 	{"caption": "-", "id": "side-bar-end-separator"},
 	{
